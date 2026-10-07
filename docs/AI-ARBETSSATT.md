@@ -70,4 +70,4 @@ Här loggas varje gång Claude skriver kod som hamnar i repot.
 | --- | --- | --- | --- | --- |
 | 2026-10-06 | Projektstart | Ta över | Skapade Expo-appen med reset-project och mallen för Web API | Ja |
 | 2026-10-07 | Arbetssätt | Ta över | Skrev CLAUDE.md och det här dokumentet | Ja |
-| 2026-10-07 | CI | Ta över | Rättade stavfel i api.yml, sökväg till lockfil i mobile.yml och bytte actions till v5 | |
+| 2026-10-07 | CI | Ta över | Rättade stavfel i api.yml, sökväg till lockfil i mobile.yml och bytte actions till v5 | Ja |
