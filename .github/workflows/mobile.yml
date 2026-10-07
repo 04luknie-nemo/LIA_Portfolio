@@ -1,0 +1,31 @@
+name: Node.js CI
+
+on:
+  push:
+    branches: ["main"]
+    paths: ["mobile/**", ".github/workflows/mobile.yml"]
+  pull_request:
+    branches: [ "main" ]
+    paths: ["mobile/**", ".github/workflows/mobile.yml"]
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: mobile
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 22
+        cache: npm
+        cache-dependency-path: /mobile/package-lock.json
+
+    - run: npm ci
+    - run: npm run type-check
+    - run: npm run lint
+    - run: npm run build --if-present
+    - run: npm test --if-present
