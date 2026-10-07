@@ -69,4 +69,4 @@ Här loggas varje gång Claude skriver kod som hamnar i repot.
 | Datum | Etapp | Nivå | Vad Claude gjorde | Granskad av mig |
 | --- | --- | --- | --- | --- |
 | 2026-10-06 | Projektstart | Ta över | Skapade Expo-appen med reset-project och mallen för Web API | Ja |
-| 2026-10-07 | Arbetssätt | Ta över | Skrev CLAUDE.md och det här dokumentet | |
+| 2026-10-07 | Arbetssätt | Ta över | Skrev CLAUDE.md och det här dokumentet | Ja |
