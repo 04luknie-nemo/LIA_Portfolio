@@ -25,4 +25,5 @@ Fråga vem du pratar med om det inte framgår. Reglerna nedan gäller båda.
 - mobile/  Expo-app med expo-router. Läs mobile/AGENTS.md innan du ändrar där.
 - Regler ligger i entiteterna i Domain, inte i services.
 - Entiteten för en ansökan heter LiaApplication, så den inte krockar med Application-lagret.
+- Regler och flöden finns i docs/REGLER.md. Läs dem innan du föreslår kod i Domain.
 - Projektet bygger vidare på https://github.com/04luknie-nemo/lia_match.
