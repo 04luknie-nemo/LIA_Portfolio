@@ -43,25 +43,25 @@ Status: utkast, 2026-11-02.
 | Nekad | Företaget har tackat nej |
 | Inget svar | Inget har hänt på 14 dagar |
 | Stängd | Eleven har fått en annan plats |
+| Återkallad | Eleven har dragit tillbaka ansökan |
 
 ### Tillåtna övergångar
 
-```
-Skickad ──► Granskad ──► Intervju ──► Accepterad
-   │           │            │
-   │           ├────────────┴──────► Nekad
-   │           │
-   └───────────┴─► Inget svar
-```
+| Från | Får gå till |
+| --- | --- |
+| Skickad | Granskad, Intervju, Nekad, Inget svar, Stängd, Återkallad |
+| Granskad | Intervju, Nekad, Inget svar, Stängd, Återkallad |
+| Intervju | Accepterad, Nekad, Stängd, Återkallad |
+| Inget svar | Granskad, Intervju, Nekad, Stängd, Återkallad |
+| Accepterad, Nekad, Stängd, Återkallad | Ingenting. Slutstatus. |
 
+- Inget svar är inte slutgiltig. Svarar företaget sent går ansökan vidare till Granskad, Intervju eller Nekad som vanligt.
 - Nekad är slutgiltig. En nekad ansökan kan inte öppnas igen.
 - När en ansökan blir Accepterad stängs elevens övriga öppna ansökningar automatiskt och får status Stängd.
-- Accepterad, Nekad och Stängd är slutstatusar. De ändras inte.
-- Företaget ser att ansökan är stängd om det öppnar länken efteråt.
-
-Öppna frågor om status:
-- Får företaget svara på en ansökan med status Inget svar, så att den går vidare till Intervju eller Nekad?
-- Får eleven dra tillbaka en ansökan själv?
+- Eleven får dra tillbaka en öppen ansökan. Den får då status Återkallad.
+- Öppna statusar: Skickad, Granskad, Intervju och Inget svar.
+- Slutstatusar: Accepterad, Nekad, Stängd och Återkallad. De ändras inte.
+- Företaget ser att ansökan är stängd eller återkallad om det öppnar länken efteråt.
 
 ## Kontakt med företagen
 
