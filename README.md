@@ -9,19 +9,6 @@ En utbyggnation av:
 
 Kopplar ihop studenter (systemutvecklare .NET) med företag för LIA-platser.
 
-## Om projektet
-
-- Idé och projektägare: [@04luknie-nemo](https://github.com/04luknie-nemo)
-- Medutvecklare: Sebastian
-
-Att hitta LIA i dag sker mest via mejl. Mejl missas, ansökningar kommer bort och det är svårt för skolan att se vilka elever som saknar plats. LIA Connect samlar LIA-ansökningar på ett ställe, för tre roller:
-
-- Elev: profil med CV, pitch och kompetenser.
-- Företag: ser ansökningar och deras status.
-- Skola: ser alla elever och om de har fått LIA-plats.
-
-Projektet är i ett tidigt skede. Funktioner och flöden är inte bestämda än.
-
 ## Struktur
 
 - mobile/  Expo-app (React Native, expo-router)
