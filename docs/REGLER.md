@@ -42,10 +42,26 @@ Status: utkast, 2026-11-02.
 | Accepterad | Eleven har fått platsen |
 | Nekad | Företaget har tackat nej |
 | Inget svar | Inget har hänt på 14 dagar |
+| Stängd | Eleven har fått en annan plats |
+
+### Tillåtna övergångar
+
+```
+Skickad ──► Granskad ──► Intervju ──► Accepterad
+   │           │            │
+   │           ├────────────┴──────► Nekad
+   │           │
+   └───────────┴─► Inget svar
+```
+
+- Nekad är slutgiltig. En nekad ansökan kan inte öppnas igen.
+- När en ansökan blir Accepterad stängs elevens övriga öppna ansökningar automatiskt och får status Stängd.
+- Accepterad, Nekad och Stängd är slutstatusar. De ändras inte.
+- Företaget ser att ansökan är stängd om det öppnar länken efteråt.
 
 Öppna frågor om status:
-- Vilka övergångar är tillåtna? Får till exempel en nekad ansökan öppnas igen?
-- Vad händer med elevens övriga ansökningar när en ansökan blir accepterad?
+- Får företaget svara på en ansökan med status Inget svar, så att den går vidare till Intervju eller Nekad?
+- Får eleven dra tillbaka en ansökan själv?
 
 ## Kontakt med företagen
 

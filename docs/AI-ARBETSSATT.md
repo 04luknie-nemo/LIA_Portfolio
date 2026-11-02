@@ -101,3 +101,4 @@ Här loggas varje gång Claude skriver kod som hamnar i repot.
 | 2026-10-07 | CI | Ta över | Rättade stavfel i api.yml, sökväg till lockfil i mobile.yml och bytte actions till v5 | @04luknie-nemo | @04luknie-nemo |
 | 2026-11-02 | Arbetssätt | Ta över | Uppdaterade CLAUDE.md och det här dokumentet för två utvecklare | @04luknie-nemo | |
 | 2026-11-02 | Regler | Ta över | Skrev docs/REGLER.md utifrån besluten om roller, ansökan och kontakt med företagen | @04luknie-nemo | |
+| 2026-11-02 | Regler | Ta över | Lade till statusen Stängd och tillåtna övergångar i docs/REGLER.md | @04luknie-nemo | |
