@@ -57,6 +57,8 @@ Status: utkast, 2026-11-02.
 
 - Inget svar är inte slutgiltig. Svarar företaget sent går ansökan vidare till Granskad, Intervju eller Nekad som vanligt.
 - Nekad är slutgiltig. En nekad ansökan kan inte öppnas igen.
+- En ansökan måste gå via Intervju innan den kan bli Accepterad.
+- Inget svar sätts efter 14 dagar utan händelse, både från Skickad och från Granskad.
 - När en ansökan blir Accepterad stängs elevens övriga öppna ansökningar automatiskt och får status Stängd.
 - Eleven får dra tillbaka en öppen ansökan. Den får då status Återkallad.
 - Öppna statusar: Skickad, Granskad, Intervju och Inget svar.

@@ -103,3 +103,4 @@ Här loggas varje gång Claude skriver kod som hamnar i repot.
 | 2026-11-02 | Regler | Ta över | Skrev docs/REGLER.md utifrån besluten om roller, ansökan och kontakt med företagen | @04luknie-nemo | |
 | 2026-11-02 | Regler | Ta över | Lade till statusen Stängd och tillåtna övergångar i docs/REGLER.md | @04luknie-nemo | |
 | 2026-11-02 | Regler | Ta över | Lade till sena svar från företag och statusen Återkallad i docs/REGLER.md | @04luknie-nemo | |
+| 2026-11-02 | Regler | Ta över | Skrev in att Intervju krävs före Accepterad och när Inget svar sätts | @04luknie-nemo | |
