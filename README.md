@@ -12,7 +12,7 @@ Kopplar ihop studenter (systemutvecklare .NET) med företag för LIA-platser.
 ## Struktur
 
 - mobile/  Expo-app (React Native, expo-router)
-- api/LiaConnect.Api/  ASP.NET Core Web API (.NET 9)
+- api/LiaConnect.Api/  ASP.NET Core Web API (.NET 9) / Alternativt hono eller annan backend
 
 ## Kom igång
 
