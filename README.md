@@ -1,4 +1,11 @@
 # LIA Connect
+En utbyggnation av: 
+- https://github.com/04luknie-nemo/lia_match
+## Ägare: 
+- https://github.com/04luknie-nemo
+## Utvecklare: 
+- https://github.com/galenginger
+- https://github.com/04luknie-nemo
 
 Kopplar ihop studenter (systemutvecklare .NET) med företag för LIA-platser.
 
